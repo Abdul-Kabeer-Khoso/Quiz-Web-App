@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quizStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+        <div class="container">
+
+            <!-- Quiz Application Name and timer-->
+
+            <div class="QuizApp-and-timer">
+                    <h2>Quiz Application</h2>
+                    <div class="timerBox">
+                        <i class="fa-solid fa-stopwatch" style="color: #ffffff;"></i>
+                        <p id="time"></p>
+                    </div>
+            </div>
+
+            <div class="questionAnswer">
+                <div class="questions">
+                <h3></h3>
+                </div>
+                <div class="Answers">
+                    <div class="ans"></div>
+                    <div class="ans"></div>
+                    <div class="ans"></div>
+                    <div class="ans"></div>
+                </div>
+            </div>
+           
+
+            <div class="questionsNumber">
+                <div>
+                <p> <p id="currQuestionNumber">  </p> &nbsp; out of &nbsp; <p id="totalQuestionNumber">  </p> &nbsp; Question </p>
+                </div>
+                <button>Next</button>
+            </div>
+
+        </div>
+        
+
+        <script src="script.js"></script>
+        <script src="questions.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(85, 127, 241);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 370px;
+    height: 460px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-family: "Varela Round", serif;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.QuizApp-and-timer{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height:11%;
+   border-bottom: 2px solid rgba(128, 128, 128, 0.507);
+   padding-bottom: 3px;
+}
+
+.timerBox{
+    width: 13%;
+    height: 66%;
+    background-color: rgb(51, 47, 47);
+    border-radius: 5px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.timerBox p{
+    color: white;
+}
+
+.questionAnswer{
+    width: 100%;
+    height: 90%;
+    padding: 10px 0px;
+}
+
+.questionAnswer .questions{
+    height: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.questionAnswer .questions h3{
+    font-size: 19px;
+    line-height: 29px;
+}
+
+.questionsNumber{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgba(128, 128, 128, 0.507);
+    padding-top: 10px;
+}
+
+.questionsNumber div{
+    display: flex;
+
+}
+
+.questionsNumber button{
+    background-color: rgb(253, 123, 1);
+    width: 80px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: "Varela Round", serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.Answers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ans{
+    width: 100%;
+    height: auto;
+    border: 1.5px solid rgb(27, 26, 26);
+    border-radius: 7px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7px;
+    cursor: pointer;
+}
+
+#currQuestionNumber, #totalQuestionNumber{
+    font-weight: bold;
+}
+
